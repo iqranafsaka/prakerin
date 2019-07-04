@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\User;
 
 class ContohController extends Controller
 {
@@ -12,6 +13,7 @@ class ContohController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
+    //GET
     {
         $siswa = ['nama', 'nis', 'kelas', 'jurusan', 'hobby', 
                  'ekskul', 'umur', 'tgl_lahir', 'alamat', 'asal_sekolah'];
@@ -26,12 +28,53 @@ class ContohController extends Controller
         return [$siswa, $mahasiswa, $programstudy, $transaksi, $guru];
     }
 
+    public function index2()
+    //GET
+    {
+        $data = [
+            [
+                "nama" => "Iqra Nafsaka",
+                "umur" => 17,
+                "nrp" => "085320651428",
+                "lulus" => true,
+                "hobby" => ["Menggambar", "Bermain Game"],
+                "sekolah" => "SMK ASSALAAM BANDUNG",
+                "pembimbing" => [
+                    "nama1" => "CHANDRA",
+                    "nama2" => "AGUNG"
+                ]
+            ],
+            [
+                "nama" => "Chandra Gunawan",
+                "umur" => 15,
+                "nrp" => "Unknown",
+                "lulus" => true,
+                "hobby" => ["Menggambar", "Bermain Game"],
+                "sekolah" => "SMK ASSALAAM BANDUNG",
+                "pembimbing" => [
+                    "nama1" => "CHANDRA",
+                    "nama2" => "AGUNG"
+                    ]
+                ]
+                    
+            ];
+        return $data;
+    }
+
+    public function index3()
+    //GET
+    {
+        $data = User::all();
+        return response()->json($data);
+    }
+
     /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
      */
     public function create()
+    //POST
     {
         //
     }

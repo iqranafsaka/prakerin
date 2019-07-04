@@ -18,3 +18,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('contoh', 'ContohController@index');
+Route::get('contoh2', 'ContohController@index2');
+Route::get('contoh3', 'ContohController@index3');
