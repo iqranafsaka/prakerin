@@ -3,68 +3,18 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Contoh3;
+use App\Tugas1;
 
-class ContohController extends Controller
+class Tugas1Controller extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    // public function index()
-    // //GET
-    // {
-    //     $siswa = ['nama', 'nis', 'kelas', 'jurusan', 'hobby', 
-    //              'ekskul', 'umur', 'tgl_lahir', 'alamat', 'asal_sekolah'];
-    //     $mahasiswa = ['perguruan_tinggi', 'tanggal_berdiri', 'nomor_skpt', 'tanggal_skpt', 'alamat',
-    //               'kota', 'kode_pos', 'telefon', 'email', 'website'];
-    //     $programstudy = ['kode', 'nama_program_study', 'status', 'jenjang', 'jmlh_dosen_ttp',
-    //               'jmlh_mhs', 'rasio_dosen_ttp', 'umur', 'alamat', 'tujuan'];
-    //     $transaksi = ['harga', 'nama_barang', 'kode_barang', 'supplier', 'tag',
-    //                   'kategori', 'waktu_pemesanan', 'waktu_pembelian', 'alamat', 'total_harga'];
-    //     $guru = ['nama', 'status', 'umur', 'alamat', 'kode_guru',
-    //              'mata_pelajaran', 'keahlian', 'tgl_lahir', 'no_tlp', 'jam_pelajaran'];
-    //     return [$siswa, $mahasiswa, $programstudy, $transaksi, $guru];
-    // }
-
-    // public function index2()
-    // //GET
-    // {
-    //     $data = [
-    //         [
-    //             "nama" => "Iqra Nafsaka",
-    //             "umur" => 17,
-    //             "nrp" => "085320651428",
-    //             "lulus" => true,
-    //             "hobby" => ["Menggambar", "Bermain Game"],
-    //             "sekolah" => "SMK ASSALAAM BANDUNG",
-    //             "pembimbing" => [
-    //                 "nama1" => "CHANDRA",
-    //                 "nama2" => "AGUNG"
-    //             ]
-    //         ],
-    //         [
-    //             "nama" => "Chandra Gunawan",
-    //             "umur" => 15,
-    //             "nrp" => "Unknown",
-    //             "lulus" => true,
-    //             "hobby" => ["Menggambar", "Bermain Game"],
-    //             "sekolah" => "SMK ASSALAAM BANDUNG",
-    //             "pembimbing" => [
-    //                 "nama1" => "CHANDRA",
-    //                 "nama2" => "AGUNG"
-    //                 ]
-    //             ]
-                    
-    //         ];
-    //     return $data;
-    // }
-
     public function index()
-    //GET
     {
-        $data = Contoh3::all();
+        $data = Tugas1::all();
         $response = [
             "success" => true,
             "data" => $data,
@@ -79,7 +29,6 @@ class ContohController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function create()
-    //POST
     {
         //
     }
@@ -92,12 +41,12 @@ class ContohController extends Controller
      */
     public function store(Request $request)
     {
-        $data = new Contoh3();
+        $data = new Tugas1();
         $data->nama = $request->nama;
-        $data->nis = $request->nis;
         $data->umur = $request->umur;
-        $data->alamat = $request->alamat;
+        $data->kelas = $request->kelas;
         $data->jurusan = $request->jurusan;
+        $data->wali_kelas = $request->wali_kelas;
         $data->save();
 
         $response = [
@@ -117,13 +66,12 @@ class ContohController extends Controller
      */
     public function show($id)
     {
-        $data = Contoh3::findOrFail($id);
+        $data = Tugas1::findOrFail($id);
         $response = [
             "success" => true,
             "data" => $data,
             "message" => "Berhasil!"
         ];
-
         return response()->json($response, 200);
     }
 
@@ -135,7 +83,7 @@ class ContohController extends Controller
      */
     public function edit($id)
     {
-       //
+        //
     }
 
     /**
@@ -147,12 +95,12 @@ class ContohController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $data = Contoh3::findOrFail($id);
+        $data = Tugas1::findOrFail($id);
         $data->nama = $request->nama;
-        $data->nis = $request->nis;
         $data->umur = $request->umur;
-        $data->alamat = $request->alamat;
+        $data->kelas = $request->kelas;
         $data->jurusan = $request->jurusan;
+        $data->wali_kelas = $request->wali_kelas;
         $data->save();
 
         $response = [
@@ -172,13 +120,12 @@ class ContohController extends Controller
      */
     public function destroy($id)
     {
-        $data = Contoh3::findOrFail($id)->delete();
+        $data = Tugas1::findOrFail($id)->delete();
         $response = [
             "success" => true,
             "data" => $data,
             "message" => "Berhasil!"
         ];
-
         return response()->json($response, 200);
     }
 }
