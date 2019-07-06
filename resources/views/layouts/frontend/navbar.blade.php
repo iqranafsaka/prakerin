@@ -15,7 +15,7 @@
 
           <!-- Logo -->
           <a href="index.html" class="logo">
-            <img class="logo__img" src="{{ asset('assets/frontend/img/logo_light.png')}}" srcset="{{ asset('assets/frontend/img/logo_light.png')}} 1x, {{ asset('img/logo_light@2x.png')}} 2x" alt="logo">
+            <img class="logo__img" src="{{ asset('assets/frontend/img/logo_light.png')}}" srcset="{{ asset('assets/frontend/img/logo_light.png')}} 1x, {{ asset('assets/frontend/img/logo_light@2x.png')}} 2x" alt="logo">
           </a>
 
           <!-- Nav-wrap -->
