@@ -13,47 +13,24 @@
     <nav>
       <ul class="sidenav__menu" role="menubar">
         <li>
-          <a href="index.html" class="sidenav__menu-link">Home</a>
+          <a href="/" class="sidenav__menu-link">Home</a>
+        </li>
+
+        <li>
+          <a href="/community" class="sidenav__menu-link">Community</a>
           <button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
           <ul class="sidenav__menu-dropdown">
-            <li><a href="index.html" class="sidenav__menu-link">Home Demo 1</a></li>
-            <li><a href="index-2.html" class="sidenav__menu-link">Home Demo 2</a></li>
-            <li><a href="index-3.html" class="sidenav__menu-link">Home Demo 3</a></li>
+            <li><a href="/indexcomu" class="sidenav__menu-link">Home</a></li>
+            <li><a href="/discussion" class="sidenav__menu-link">Discussion</a></li>
           </ul>
         </li>
       
         <li>
-          <a href="#" class="sidenav__menu-link">Posts</a>
-          <button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
-          <ul class="sidenav__menu-dropdown">
-            <li><a href="single-post.html" class="sidenav__menu-link">Gallery Post</a></li>
-            <li><a href="single-post.html" class="sidenav__menu-link">Video Post</a></li>
-            <li><a href="single-post.html" class="sidenav__menu-link">Audio Post</a></li>
-            <li><a href="single-post.html" class="sidenav__menu-link">Quote Post</a></li>
-          </ul>
-        </li>
-
-        <li>
-          <a href="#" class="sidenav__menu-link">Pages</a>
-          <button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
-          <ul class="sidenav__menu-dropdown">
-            <li><a href="about.html" class="sidenav__menu-link">About</a></li>
-            <li><a href="contact.html" class="sidenav__menu-link">Contact</a></li>
-            <li><a href="404.html" class="sidenav__menu-link">404</a></li>
-          </ul>
+          <a href="/posts" class="sidenav__menu-link">Posts</a>
         </li>
         
         <li>
-          <a href="#" class="sidenav__menu-link">Features</a>
-          <button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
-          <ul class="sidenav__menu-dropdown">
-            <li><a href="lazyload.html" class="sidenav__menu-link">Lazyload</a></li>
-            <li><a href="shortcodes.html" class="sidenav__menu-link">Shortcodes</a></li>
-          </ul>
-        </li>
-
-        <li>
-          <a href="#" class="sidenav__menu-link">Purchase</a>
+          <a href="/about" class="sidenav__menu-link">About Us</a>
         </li>
       </ul>
     </nav>

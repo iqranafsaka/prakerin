@@ -18,3 +18,20 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', function(){
     return view('frontend.index');
 });
+
+//Contoh Penampilan About us
+Route::get('/about', function(){
+    return view('frontend.about');
+});
+
+Route::get('/indexcomu', function(){
+    return view('frontend.indexcomu');
+});
+
+Route::get('/discussion', function(){
+    return view('frontend.discussion');
+});
+
+Route::get('/posts', function(){
+    return view('frontend.posts');
+});

@@ -9,7 +9,7 @@
   <meta name="description" content="">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700%7CRoboto:400,400i,700" rel='stylesheet'>
+  <link src="https://fonts.googleapis.com/css?family=Poppins:400,600,700%7CRoboto:400,400i,700" rel='stylesheet'>
 
   <!-- Css -->
   <link rel="stylesheet" href="{{ asset('assets/frontend/css/bootstrap.min.css')}}" />
@@ -84,6 +84,7 @@
     <!-- end navigation -->
     
     <div class="main-container" id="main-container">
+        
       <!-- Hero Slider -->
       <section class="hero">
         <div id="owl-hero" class="owl-carousel owl-theme">        
@@ -162,13 +163,12 @@
 
             <div class="video-playlist__content thumb-container">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube.com/watch?v=Ro6r15wzp2o" class="video-playlist__content-video">
-                </iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ro6r15wzp2o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  class="video-playlist__content-video"></iframe>
               </div>
             </div>
 
             <div class="video-playlist__list">
-              <a href="https://www.youtube.com/watch?v=6wlvYh0h63k" class="video-playlist__list-item video-playlist__list-item--active">
+              <a href="https://www.youtube.com/embed/6wlvYh0h63k" class="video-playlist__list-item video-playlist__list-item--active">
                 <div class="video-playlist__list-item-thumb thumb-container">
                   <img src="https://i.ytimg.com/vi_webp/6wlvYh0h63k/sddefault.webp" class="video-playlist__list-item-img lazyload" alt="">
                 </div>
@@ -176,7 +176,7 @@
                   <h4 class="video-playlist__list-item-title">Rainbow Six Siege E3 2014 Gameplay World Premiere [US]</h4>
                 </div>
               </a>
-              <a href="https://www.youtube.com/watch?v=LLCrzJdF8Z4" class="video-playlist__list-item">
+              <a href="https://www.youtube.com/embed/LLCrzJdF8Z4" class="video-playlist__list-item">
                 <div class="video-playlist__list-item-thumb thumb-container">
                   <img src="https://i.ytimg.com/vi_webp/wJxNhJ8fjFk/sddefault.webp" class="video-playlist__list-item-img lazyload" alt="">
                 </div>
@@ -184,7 +184,7 @@
                   <h4 class="video-playlist__list-item-title">NieR: Automata – "Death is Your Beginning" Launch Trailer | PS4</h4>
                 </div>
               </a>
-              <a href="https://www.youtube.com/watch?v=hfjazBN0DwA" class="video-playlist__list-item">
+              <a href="https://www.youtube.com/embed/hfjazBN0DwA" class="video-playlist__list-item">
                 <div class="video-playlist__list-item-thumb thumb-container">
                   <img src="https://i.ytimg.com/vi_webp/hfjazBN0DwA/sddefault.webp" class="video-playlist__list-item-img lazyload" alt="">
                 </div>
@@ -192,7 +192,7 @@
                   <h4 class="video-playlist__list-item-title">PUBG - Vikendi Snow Map Gameplay Trailer</h4>
                 </div>
               </a>
-              <a href="https://www.youtube.com/watch?v=s_SJZSAtLBA" class="video-playlist__list-item">
+              <a href="https://www.youtube.com/embed/s_SJZSAtLBA" class="video-playlist__list-item">
                 <div class="video-playlist__list-item-thumb thumb-container">
                   <img src="https://i.ytimg.com/vi/s_SJZSAtLBA/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAgEshakgrN4q3fSRCGdZKUWG-tdw" class="video-playlist__list-item-img lazyload" alt="">
                 </div>

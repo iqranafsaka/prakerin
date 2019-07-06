@@ -14,7 +14,7 @@
           </button> <!-- end mobile menu button -->
 
           <!-- Logo -->
-          <a href="index.html" class="logo">
+          <a href="/" class="logo">
             <img class="logo__img" src="{{ asset('assets/frontend/img/logo_light.png')}}" srcset="{{ asset('assets/frontend/img/logo_light.png')}} 1x, {{ asset('assets/frontend/img/logo_light@2x.png')}} 2x" alt="logo">
           </a>
 
@@ -23,50 +23,23 @@
             <ul class="nav__menu">
 
               <li class="nav__dropdown active">
-                <a href="index.html">Home</a>
-                <ul class="nav__dropdown-menu">
-                  <li>
-                    <a href="index.html">Home Demo 1</a>
-                  </li>
-                  <li>
-                    <a href="index-2.html">Home Demo 2</a>
-                  </li>
-                  <li>
-                    <a href="index-3.html">Home Demo 3</a>
-                  </li>
-                </ul>
+                <a href="/">Home</a>
               </li>
 
               <li class="nav__dropdown">
-                <a href="categories.html">Posts</a>
+                <a href="/indexcomu">Community</a>
                 <ul class="nav__dropdown-menu">
-                  <li><a href="single-post.html">Gallery Post</a></li>
-                  <li><a href="single-post.html">Video Post</a></li>
-                  <li><a href="single-post.html">Audio Post</a></li>
-                  <li><a href="single-post.html">Quote Post</a></li>
-                </ul>
-              </li>
-
-              <li class="nav__dropdown">
-                <a href="catalog.html">Pages</a>
-                <ul class="nav__dropdown-menu">
-                  <li><a href="categories.html">Categories</a></li>
-                  <li><a href="about.html">About</a></li>                    
-                  <li><a href="contact.html">Contact</a></li>
-                  <li><a href="404.html">404</a></li>
-                </ul>
-              </li>
-
-              <li class="nav__dropdown">
-                <a href="catalog.html">Features</a>
-                <ul class="nav__dropdown-menu">
-                  <li><a href="lazyload.html">Lazy Load</a></li>
-                  <li><a href="shortcodes.html">Shortcodes</a></li>
+                  <li><a href="/indexcomu">Home</a></li>
+                  <li><a href="/discussion">Discussion</a></li>
                 </ul>
               </li>
 
               <li>
-                <a href="#">Purchase</a>
+                <a href="/posts">Posts</a>
+              </li>
+
+              <li>
+                <a href="/about">About Us</a>
               </li>
 
 
