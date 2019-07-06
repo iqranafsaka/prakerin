@@ -6,7 +6,7 @@
 
         <div class="col-lg-3 col-md-6">
           <div class="widget">
-            <img src="{{ asset('assets/frontend/img/logo_light.png')}}" srcset="img/logo_light.png 1x, img/logo_light@2x.png 2x" class="logo__img" alt="">
+            <img src="{{ asset('assets/frontend/img/logo_light.png')}}" srcset="{{ asset('assets/frontend/img/logo_light.png')}} 1x, {{ asset('assets/frontend/img/logo_light@2x.png')}} 2x" class="logo__img" alt="">
             <p class="mt-20">We bring you the best Premium WordPress Themes.</p>
 
             <div class="socials mt-20">

@@ -9,7 +9,7 @@
   <meta name="description" content="">
 
   <!-- Google Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Poppins:400,600,700%7CRoboto:400,400i,700' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700%7CRoboto:400,400i,700" rel='stylesheet'>
 
   <!-- Css -->
   <link rel="stylesheet" href="{{ asset('assets/frontend/css/bootstrap.min.css')}}" />
@@ -162,42 +162,43 @@
 
             <div class="video-playlist__content thumb-container">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://www.youtube.com/embed/mn6Ia5e_suY?feature=oembed" class="video-playlist__content-video">
+                <iframe class="video-playlist__content-video">
+                    <video src="https://www.youtube.com/watch?v=Ro6r15wzp2o" ></video>
                 </iframe>
               </div>
             </div>
 
             <div class="video-playlist__list">
-              <a href="https://www.youtube.com/embed/mn6Ia5e_suY?feature=oembed&autoplay=1" class="video-playlist__list-item video-playlist__list-item--active">
+              <a href="https://www.youtube.com/watch?v=6wlvYh0h63k" class="video-playlist__list-item video-playlist__list-item--active">
                 <div class="video-playlist__list-item-thumb thumb-container">
-                  <img data-src="https://i.ytimg.com/vi/mn6Ia5e_suY/default.jpg" src="https://i.ytimg.com/vi/mn6Ia5e_suY/default.jpg')}}" class="video-playlist__list-item-img lazyload" alt="">
+                  <img src="https://i.ytimg.com/vi_webp/6wlvYh0h63k/sddefault.webp" class="video-playlist__list-item-img lazyload" alt="">
                 </div>
                 <div class="video-playlist__list-item-description">
-                  <h4 class="video-playlist__list-item-title">Top 5 New Tech Gadgets You Must Have In 2017</h4>
+                  <h4 class="video-playlist__list-item-title">Rainbow Six Siege E3 2014 Gameplay World Premiere [US]</h4>
                 </div>
               </a>
-              <a href="https://www.youtube.com/embed/x68XnWszi2A?feature=oembed&autoplay=1" class="video-playlist__list-item">
+              <a href="https://www.youtube.com/watch?v=LLCrzJdF8Z4" class="video-playlist__list-item">
                 <div class="video-playlist__list-item-thumb thumb-container">
-                  <img data-src="https://i.ytimg.com/vi/x68XnWszi2A/default.jpg" src="https://i.ytimg.com/vi/mn6Ia5e_suY/default.jpg')}}" class="video-playlist__list-item-img lazyload" alt="">
+                  <img src="https://i.ytimg.com/vi_webp/wJxNhJ8fjFk/sddefault.webp" class="video-playlist__list-item-img lazyload" alt="">
                 </div>
                 <div class="video-playlist__list-item-description">
-                  <h4 class="video-playlist__list-item-title">10 Amazing Gadgets You Can Buy Now On Amazon</h4>
+                  <h4 class="video-playlist__list-item-title">NieR: Automata – "Death is Your Beginning" Launch Trailer | PS4</h4>
                 </div>
               </a>
-              <a href="https://www.youtube.com/embed/TXFrCy47ue8?feature=oembed&autoplay=1" class="video-playlist__list-item">
+              <a href="https://www.youtube.com/watch?v=hfjazBN0DwA" class="video-playlist__list-item">
                 <div class="video-playlist__list-item-thumb thumb-container">
-                  <img data-src="https://i.ytimg.com/vi/TXFrCy47ue8/default.jpg" src="https://i.ytimg.com/vi/mn6Ia5e_suY/default.jpg')}}" class="video-playlist__list-item-img lazyload" alt="">
+                  <img src="https://i.ytimg.com/vi_webp/hfjazBN0DwA/sddefault.webp" class="video-playlist__list-item-img lazyload" alt="">
                 </div>
                 <div class="video-playlist__list-item-description">
-                  <h4 class="video-playlist__list-item-title">Top 5 Best Drones with HD Camera (Cheap and Affordable Version)</h4>
+                  <h4 class="video-playlist__list-item-title">PUBG - Vikendi Snow Map Gameplay Trailer</h4>
                 </div>
               </a>
-              <a href="https://www.youtube.com/embed/rdFXddVsUuQ?feature=oembed&autoplay=1" class="video-playlist__list-item">
+              <a href="https://www.youtube.com/watch?v=s_SJZSAtLBA" class="video-playlist__list-item">
                 <div class="video-playlist__list-item-thumb thumb-container">
-                  <img data-src="https://i.ytimg.com/vi/rdFXddVsUuQ/default.jpg" src="https://i.ytimg.com/vi/mn6Ia5e_suY/default.jpg')}}" class="video-playlist__list-item-img lazyload" alt="">
+                  <img src="https://i.ytimg.com/vi/s_SJZSAtLBA/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAgEshakgrN4q3fSRCGdZKUWG-tdw" class="video-playlist__list-item-img lazyload" alt="">
                 </div>
                 <div class="video-playlist__list-item-description">
-                  <h4 class="video-playlist__list-item-title">iPhone X Review – Pushing Me to Android</h4>
+                  <h4 class="video-playlist__list-item-title">Assassin's Creed Odyssey: E3 2018 Official World Premiere Trailer | Ubisoft [NA]</h4>
                 </div>
               </a>
             </div>
