@@ -162,8 +162,7 @@
 
             <div class="video-playlist__content thumb-container">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="video-playlist__content-video">
-                    <video src="https://www.youtube.com/watch?v=Ro6r15wzp2o" ></video>
+                <iframe src="https://www.youtube.com/watch?v=Ro6r15wzp2o" class="video-playlist__content-video">
                 </iframe>
               </div>
             </div>
