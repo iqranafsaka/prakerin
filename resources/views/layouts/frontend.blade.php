@@ -8,8 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="">
 
-  <!-- Google Fonts -->
-  <link src="https://fonts.googleapis.com/css?family=Poppins:400,600,700%7CRoboto:400,400i,700" rel='stylesheet'>
 
   <!-- Css -->
   <link rel="stylesheet" href="{{ asset('assets/frontend/css/bootstrap.min.css')}}" />

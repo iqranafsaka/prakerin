@@ -35,3 +35,19 @@ Route::get('/discussion', function(){
 Route::get('/posts', function(){
     return view('frontend.posts');
 });
+
+Route::get('backend', function(){
+    return view('backend.index');
+});
+
+//Backend
+Route::group(['prefix' => 'admin', 'middleware' => 'auth'],
+function(){
+    Route::get('/', function(){
+        return view('backend.index');
+    });
+    Route::resource('kategori', 'KategoriController');
+    Route::resource('tag', 'TagController');
+    Route::resource('artikel', 'ArtikelController');
+});
+
